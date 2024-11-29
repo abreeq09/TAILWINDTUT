@@ -702,6 +702,16 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -740,3 +750,4 @@ video {
     text-align: left;
   }
 }
+  
