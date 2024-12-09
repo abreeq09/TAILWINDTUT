@@ -12,14 +12,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
     <script src="index.js" defer></script>
 
 
  </head>
  <body class="bg-[#0a1a1f] text-white">
   <header class="bg-[#0f3d3e] p-4 flex justify-between items-center">
-   <div class="text-3xl font-bold">
-    AQ
+   <div>
+    <img alt="logo" src="../images/logo.png" height="70px" width="60px"/>
    </div>
    <div class="flex items-center">
     <nav class="hidden md:flex">
@@ -92,7 +98,7 @@
   </div>
   <main class="flex flex-col items-center mt-16">
    <div class="flex flex-col md:flex-row items-center md:items-start">
-    <div class="text-center md:text-left md:mr-8">
+    <div class="text-center md:text-left md:mr-8 mt-9">
      <p class="text-2xl mt-2">
       Hello, I'm
      </p>
@@ -104,7 +110,7 @@
       <br/>
       With a passion for UI UX Design.
      </p>
-     <div class="mt-8 flex space-x-4 text-2xl justify-center md:justify-start">
+     <div class="mt-20 flex space-x-4 text-2xl justify-center md:justify-start">
       <p>
        Connect with me
       </p>
@@ -118,27 +124,339 @@
       </a>
      </div>
     </div>
+    <div>
     <div class="mt-8 md:mt-0">
-
-     <img alt="me" src="/Users/abdulahad/Desktop/TAILWINDTUT/alina.jpg" class="rounded-full border-4 border-[#6ee7b7] flex justify-center items-center" height="250" width="250"/>
+     <img alt="me" src="../images/alina.jpg" 
+     class="rounded-full border-4 border-[#6ee7b7] flex justify-center items-center" height="250" width="250 "/>
     </div>
-     <div class="mt-8 text-center text-2xl font-Press Start 2P">
+
+     <div class="mt-12 text-center text-xl press-start-2p-regular">
       <p>
-       Where Tech Meets Creativity
+        Where Tech Meets 
+        <br/>
+        Creativity
       </p>
      </div>
-   </div>
-  </main>
+    </div>
+    </main>
+
+
   <script>
     document.getElementById('burger-menu').addEventListener('click', function() {
          var menu = document.getElementById('mobile-menu');
          menu.classList.remove('hidden');
      });
     
-     document.getElementById('close-menu').addEventListener('click', function() {
+     document.getElementById('close-menu').addnpEventListener('click', function() {
          var menu = document.getElementById('mobile-menu');
          menu.classList.add('hidden');
      });
     </script>
+
+
+ <main class="flex items-center justify-center min-h-screen">
+  <div class="max-w-4xl mx-auto p-8">
+   <h1 class="text-4xl font-bold text-center section-title mb-6 mt-12">
+    ABOUT ME
+   </h1>
+   <div class="content-box -mb-10 md:w-full">
+    <p class="text-lg">
+     I am an Engineering student with a lifelong passion for design, I've always transformed ideas into reality through crafting. Discovered digital design and UI/UX in Engineering sparked a new direction, leading me to pursue graphic and UI/UX design, where I find both peace and excitement. Alongside this, I’m a dedicated front-end web developer with a strong interest in machine learning and a drive to explore artificial intelligence.
+    </p>
+   </div>
+   <div class="grid grid-cols-2 gap-8">
+    <div>
+     <div class="line-adjusted">
+      <h2 class="text-2xl font-bold section-title mb-4 mt-14">
+       <i class="fas fa-graduation-cap icon">
+       </i>
+       EDUCATION
+      </h2>
+      <p>
+       Bachelors of Engineering - CSE-AIML [2023-27]
+      </p>
+      <p>
+       Lords Institute of Engineering &amp; Technology
+      </p>
+     </div>
+    </div>
+    <div>
+     <div class="line">
+      <h2 class="text-2xl font-bold section-title mb-4 mt-14">
+       <i class="fas fa-palette icon">
+       </i>
+       INTERESTS
+      </h2>
+      <p>
+       Designing
+      </p>
+      <p>
+       Arts &amp; Crafts
+      </p>
+      <p>
+       Fashion Designing
+      </p>
+      <p>
+       Web Development
+      </p>
+      <p>
+       Calligraphy
+      </p>
+     </div>
+    </div>
+    <div>
+     <div class="line-adjusted">
+      <h2 class="text-2xl font-bold section-title mb-4">
+       <i class="fas fa-briefcase icon">
+       </i>
+       EXPERIENCE
+      </h2>
+      <p>
+       Graphic Designer
+      </p>
+      <p>
+       CodeWave Hub - 2023
+      </p>
+     </div>
+    </div>
+    <div>
+     <div class="line">
+      <h2 class="text-2xl font-mono section-title mb-4">
+       <i class="fas fa-trophy icon">
+       </i>
+       ACHIEVEMENTS
+      </h2>
+      <p>
+       Python Certification
+      </p>
+      <p>
+       Data Structures Certification
+      </p>
+      <p>
+       Web Development Certifications
+      </p>
+      <p>
+       Arts and Crafts Awards
+      </p>
+      <p>
+       Arduino Robot Certification
+      </p>
+     </div>
+    </div>
+    <div>
+     <div class="line-adjusted">
+      <h2 class="text-2xl font-bold section-title mb-4">
+       <i class="fas fa-laptop-code icon">
+       </i>
+       SOFTWARE
+      </h2>
+      <div class="flex items-center space-x-2">
+       <img alt="Figma logo" class="mr-2" height="20" src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" width="30"/>
+       <img alt="Adobe Photoshop logo" class="mr-2" height="30" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" width="30"/>
+       <img alt="Canva logo" height="30" src="https://upload.wikimedia.org/wikipedia/commons/3/30/Canva_Logo.png" width="30"/>
+      </div>
+     </div>
+    </div>
+    <div>
+     <div class="line">
+      <h2 class="text-2xl font-bold section-title mb-4">
+       <i class="fas fa-lightbulb icon">
+       </i>
+       SKILLS
+      </h2>
+      <p>
+       Visualization
+      </p>
+      <p>
+       Creativity
+      </p>
+      <p>
+       Team work
+      </p>
+      <p>
+       Curiosity
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </main>
+
+
+ <main class="bg-[#0a1a1f] text-white">
+  <div class="container mx-auto py-16">
+   <h1 class="text-4xl font-bold text-center text-teal-400 mb-12">
+    MY SERVICES
+   </h1>
+   <div class="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">
+    <div class="bg-black p-8 rounded-lg text-center w-64 h-80">
+     <img alt="Graphic Design Icon" class="mx-auto mb-4"  height="110" src="../images/Graphic designing.png" width="110"/>
+     <h2 class="text-xs font-semibold mt-3">
+      GRAPHIC DESIGNING
+     </h2>
+     <p class = "text-sm font-thin mt-4">
+      From logos to social media graphics, I deliver designs that captivate and inspire.</p>
+    </div>
+    <div class="bg-black p-8 rounded-lg text-center w-64 h-80">
+      <img alt="UX UI Icon" class="mx-auto mb-4" height="110" src="../images/UI Design.png" width="110"/>
+      <h2 class="text-xs font-semibold mt-3">
+       UI DESIGNING
+      </h2>
+      <p class = "text-sm font-thin mt-4"> 
+      Creating intuitive user interface that prioritize usability to ensure seamless user interaction.
+      </p>
+     </div>
+    <div class="bg-black p-8 rounded-lg text-center w-64 h-80">
+     <img alt="HTML, CSS, JS Icons" class="mx-auto mb-4" height="130" src="../images/web development.png" width="130"/>
+     <h2 class="text-xs font-semibold mt-3">
+     WEB DEVELOPMENT
+     </h2>
+     <div>
+     <p class = "text-sm font-thin mt-4">
+      Build responsive and visually stunning Websites with clean code, ensuring user experience across all devices.
+     </p>
+     </div>
+    </div>
+   </div>
+  </div>
+</main>
+
+
+   <main class="bg-[#0a1a1f] text-white font-sans">
+     <div class="container mx-auto p-8">
+      <h1 class="text-3xl font-bold text-teal-400 text-center mb-6">
+       MY PROJECTS
+      </h1>
+      <div class="bg-black p-8 rounded-lg max-w-4xl mx-auto">
+       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="relative bg-[#0f766e] text-white shadow-lg p-4 transform rotate-3 w-48 h-64 mx-auto">
+         <img alt="Pin" class="absolute top-2 left-2 w-5 h-5" height="20" src="../images/pin.png" width="20"/>
+         <img alt="Sticker with a hooded figure holding a sign that says 'Hackers Gonna Hack'" class="w-full min-h-48" height="400" src="../images/sticker.png" width="300"/>
+         <p class="text-center text-lg font-semibold mt-2">
+          Sticker
+         </p>
+        </div>
+        <div class="relative bg-[#0f766e] text-white shadow-lg p-4 transform rotate-3 w-48 h-64 mx-auto">
+         <img alt="Pin" class="absolute top-2 left-2 w-5 h-5" height="20" src="../images/pin.png" width="20"/>
+         <img alt="Instagram post with various community partner logos" class="w-full min-h-48" height="400" src="https://storage.googleapis.com/a1aa/image/WmBNH8L88tJIFd5mbL61J2T7GdcFz0mgVnUPC1HM8RKZfH8JA.jpg" width="400"/>
+         <p class="text-center text-lg font-semibold mt-2">
+          Instagram Post
+         </p>
+        </div>
+        <div class="relative bg-[#0f766e] text-white shadow-lg p-4 transform rotate-3 w-48 h-64 mx-auto">
+         <img alt="Pin" class="absolute top-2 left-2 w-5 h-5" height="20" src="../images/pin.png" width="20"/>
+         <img alt="Poster for an event at IIT Bombay" class="w-full min-h-48" height="400" src="https://storage.googleapis.com/a1aa/image/IXEBxmN9wurPIBDU5FVWP7gb8ekylICnipVe0KVdHX8n9P4TA.jpg" width="300"/>
+         <p class="text-center text-lg font-semibold mt-2">
+          Poster
+         </p>
+        </div>
+       </div>
+       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+        <div class="relative bg-[#0f766e] text-white shadow-lg p-4 transform rotate-3 w-48 h-64 mx-auto">
+            <img alt="Pin" class="absolute top-2 left-2 w-5 h-5" height="20" src="../images/pin.png" width="20"/>
+            <img alt="Sticker with text 'Eat Sleep Code Repeat'" class="w-full min-h-48" height="300" src="https://storage.googleapis.com/a1aa/image/2fc4dwm5zvRUPKYEryGHUa666uFnk0FN2QiAYRb594qxeP4TA.jpg" width="300"/>
+            <p class="text-center text-lg font-semibold mt-2">
+             Logo
+           </p>
+       </div>
+        <div class="relative bg-[#0f766e] text-white shadow-lg p-4 transform rotate-3 w-200 h-64 mx-auto">
+         <img alt="Pin" class="absolute top-2 left-2 w-5 h-5" height="20" src="../images/pin.png" width="20"/>
+         <img alt="Banner for Hacktober Fest event" class="w-full h-48" height="400" src="https://storage.googleapis.com/a1aa/image/OGyR5s3HN6axN1yDIYrYPa6mw2Iz63k9TZp3cIS2s7eweP4TA.jpg" width="300"/>
+         <p class="text-center text-lg font-semibold mt-2">
+          Banner
+         </p>
+        </div>
+   </div>
+   <div class="text-center mt-8">
+    <a class="text-teal-400 text-lg font-semibold hover:underline" href="#">
+     View Projects
+     <i class="fas fa-arrow-right">
+     </i>
+    </a>
+   </div>
+   <div class="mt-8">
+    <div class="relative bg-[#0f766e] text-white shadow-lg p-4 h-80 first-line:rounded-lg">
+     <div class="flex justify-center space-x-6">
+      <div class="flex items-center justify-center">
+       <img alt="Phone screen with 'Coming Soon' text" class="w-50 h-60" height="400" src="../images/UIphone.png" width="200"/>
+      </div>
+      <div class="flex items-center justify-center">
+       <img alt="Phone screen with 'Coming Soon' text" class="w-50 h-60" height="400" src="https://storage.googleapis.com/a1aa/image/G00epIQvE0xaFygdCZ4ffpyPfgIiwFgeSmffd8Lb522qyeP4TA.jpg" width="200"/>
+      </div>
+      <div class="flex items-center justify-center">
+       <img alt="Phone screen with 'Coming Soon' text" class="w-50 h-60" height="400" src="https://storage.googleapis.com/a1aa/image/G00epIQvE0xaFygdCZ4ffpyPfgIiwFgeSmffd8Lb522qyeP4TA.jpg" width="200"/>
+      </div>
+      <div class="flex items-center justify-center">
+       <img alt="Phone screen with 'Coming Soon' text" class="w-50 h-60" height="400" src="https://storage.googleapis.com/a1aa/image/G00epIQvE0xaFygdCZ4ffpyPfgIiwFgeSmffd8Lb522qyeP4TA.jpg" width="200"/>
+      </div>
+     </div>
+     <h2 class="text-center text-2xl font-bold mt-4">
+      UI/UX Projects
+     </h2>
+    </div>
+    <div class="text-center mt-4">
+     <a class="text-teal-400 text-lg font-semibold hover:underline" href="#">
+      View Projects
+      <i class="fas fa-arrow-right">
+      </i>
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+ </main>
+
+ <main class="bg-[#0a1a1f] text-white min-h-screen flex flex-col items-center justify-center">
+  <h1 class="text-4xl font-bold mb-8">
+   CONTACT ME
+  </h1>
+  <div class="flex items-center mb-8">
+   <img alt="Email icon in yellow color" class="mr-2 rounded-full" height="40" src="https://storage.googleapis.com/a1aa/image/8VsaSfS5WQXzeEq51iUOKtiU8yNPYtd5YfHPWKoKyDFuG7wnA.jpg" width="40"/>
+   <a class="text-teal-400" href="mailto:khanali222005@gmail.com">
+    khanali222005@gmail.com
+   </a>
+  </div>
+  <div class="bg-black p-6 rounded-2xl shadow-lg w-full max-w-sm">
+   <form>
+    <div class="mb-2">
+     <label class="block text-sm font-medium mb-1" for="name">
+      Name
+     </label>
+     <input class="w-full p-2 rounded-full bg-teal-900 text-white border-none focus:outline-none focus:ring-2 focus:ring-teal-400" id="name" type="text"/>
+    </div>
+    <div class="mb-2">
+     <label class="block text-sm font-medium mb-1" for="email">
+      Email
+     </label>
+     <input class="w-full p-2 rounded-full bg-teal-900 text-white border-none focus:outline-none focus:ring-2 focus:ring-teal-400" id="email" type="email"/>
+    </div>
+    <div class="mb-2">
+     <label class="block text-sm font-medium mb-1" for="message">
+      Message
+     </label>
+     <textarea class="w-full p-2 rounded-2xl bg-teal-900 text-white border-none focus:outline-none focus:ring-2 focus:ring-teal-400" id="message" rows="3"></textarea>
+    </div>
+    <button class="bg-teal-400 text-black px-4 py-2 rounded-full hover:bg-teal-500" type="submit">
+     Send
+    </button>
+   </form>
+  </div>
+  <footer class="mt-8 w-full bg-black p-4 rounded-2xl">
+   <div class="flex justify-center space-x-4">
+    <a class="bg-black p-2 rounded-full shadow-lg text-teal-400 hover:underline" href="#">
+     linkedin
+    </a>
+    <a class="bg-black p-2 rounded-full shadow-lg text-teal-400 hover:underline" href="#">
+     GitHub
+    </a>
+    <a class="bg-black p-2 rounded-full shadow-lg text-teal-400 hover:underline" href="#">
+     Discord
+    </a>
+    <a class="bg-black p-2 rounded-full shadow-lg text-teal-400 hover:underline" href="#">
+     X Twitter
+    </a>
+   </div>
+  </footer>
+ </main>
  </body>
 </html>
