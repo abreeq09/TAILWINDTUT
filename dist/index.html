@@ -23,45 +23,29 @@
 
  </head>
  <body class="bg-[#0a1a1f] text-white">
-  <header class="bg-[#0f3d3e] p-4 flex justify-between items-center">
-   <div>
-    <img alt="logo" src="../images/logo.png" height="70px" width="60px"/>
-   </div>
-   <div class="flex items-center">
-    <nav class="hidden md:flex">
-     <ul class="flex space-x-8 text-lg">
-      <li>
-       <a class="hover:text-cyan-300 duration-500" href="#">
-        HOME
-       </a>
-      </li>
-      <li>
-       <a href="#" class="hover:text-cyan-300 duration-500">
-        ABOUT
-       </a>
-      </li>
-      <li>
-       <a href="#">
-        SERVICES
-       </a>
-      </li>
-      <li>
-       <a href="#">
-        PROJECTS
-       </a>
-      </li>
-      <li>
-       <a href="#">
-        CONTACT
-       </a>
-      </li>
+  <header class="bg-[#0f3d3e]">
+    <nav class="flex items-center justify-between w-[92%] bg-red-400 md:mx-12">
+    <!--logo-->
+     <img alt="logo" src="../images/logo.png" height="70px" width="60px"/>
+     <!--Navbar Menu-->
+     <ul class="flex flex-1 justify-center space-x-8">
+      <li class="flex items-center"> <a href="#" class="hover:text-cyan-300 duration-500 ">
+        HOME</a></li>
+      <li class="flex items-center"><a href="#" class="hover:text-cyan-300 duration-500 ">
+        ABOUT</a></li>
+      <li class="flex items-center"><a href="#" class="hover:text-cyan-300 duration-500 ">
+        SERVICE</a></li>
+      <li class="flex items-center"><a href="#" class="hover:text-cyan-300 duration-500 ">
+        PROJECTS</a></li>
+      <li class="flex items-center"><a href="#" class="hover:text-cyan-300 duration-500 ">
+        CONTACT</a></li>
      </ul>
     </nav>
+
     <button class="text-3xl text-white focus:outline-none md:hidden ml-4" id="burger-menu">
      <i class="fas fa-bars">
      </i>
     </button>
-   </div>
   </header>
   <div class="hidden fixed inset-0 bg-[#040404] z-50 flex flex-col items-center justify-center" id="mobile-menu">
    <button class="text-3xl text-white focus:outline-none mb-9" id="close-menu ">
@@ -96,10 +80,13 @@
     </li>
    </ul>
   </div>
-  <main class="flex flex-col items-center mt-16">
-   <div class="flex flex-col md:flex-row items-center md:items-start">
-    <div class="text-center md:text-left md:mr-8 mt-9">
-     <p class="text-2xl mt-2">
+  <!--hero section-->
+  <main class="flex flex-col items-center ">
+   <div class="flex flex-col md:flex-row items-left md:items-start">
+
+    <!-- hero text -->
+    <div class="md:text-left md:mr-8 mt-9">
+     <p class="text-2xl mt-16">
       Hello, I'm
      </p>
      <h1 class="text-5xl mt-2 font-bold text-[#6ee7b7]">
@@ -124,19 +111,13 @@
       </a>
      </div>
     </div>
-    <div>
-    <div class="mt-8 md:mt-0">
-     <img alt="me" src="../images/alina.jpg" 
-     class="rounded-full border-4 border-[#6ee7b7] flex justify-center items-center" height="250" width="250 "/>
-    </div>
 
-     <div class="mt-12 text-center text-xl press-start-2p-regular">
-      <p>
-        Where Tech Meets 
-        <br/>
-        Creativity
-      </p>
-     </div>
+    <!-- hero image -->
+    <div>
+    <div class="md:mt-0">
+     <img alt="me" src="../images/heroimg.png" 
+     class="flex justify-center items-center" height="900" width="600"/>
+    </div>
     </div>
     </main>
 
